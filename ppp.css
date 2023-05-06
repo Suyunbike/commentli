@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: greenyellow;
+}
+
+.container {
+    width: 300px;
+    padding: 10px;
+    background-color: #e39afe;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    background-color: blueviolet;
+    padding: 7px 30px;
+    color: #fff;
+    cursor: pointer;
+}
